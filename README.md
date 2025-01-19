@@ -68,9 +68,10 @@ Si prefieres usar la consola de MySQL, sigue estos pasos:
 
 Accede a la consola de MySQL. Si usas XAMPP, abre la terminal y escribe mysql -u root -p para conectarte.
 
-# Crea la base de datos ejecutando:
+### Crea la base de datos ejecutando:
 
 CREATE DATABASE restaurante_app;
+
 Importa el archivo SQL para crear las tablas: mysql -u root -p restaurante_app < path/to/database.sql
 
 Asegúrate de reemplazar path/to/database.sql con la ruta completa del archivo database.sql en tu máquina.

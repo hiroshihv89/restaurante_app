@@ -21,6 +21,7 @@ git clone https://github.com/hiroshihv89/restaurante_app.git
 ```
 Esto descargará el proyecto en tu máquina local.
 
+
 ## 2. ESTRUCTURA DEL PROYECTO(RUTAS)
 
 ```bash
@@ -48,7 +49,8 @@ restaurante_app/
 └── database.sql
 ```
 
-3. CREAR LA BASE DE DATOS:
+
+## 3. CREAR LA BASE DE DATOS:
 
 El proyecto requiere una base de datos MySQL para funcionar correctamente. 
 Puedes crear la base de datos utilizando el archivo SQL proporcionado en el repositorio.
@@ -75,7 +77,7 @@ Asegúrate de reemplazar path/to/database.sql con la ruta completa del archivo d
 
 
 
-4. CONFIGURAR LA CONEXION A LA BASE DE DATOS:
+## 4. CONFIGURAR LA CONEXION A LA BASE DE DATOS:
 
 El archivo config/database.php contiene la configuración de la conexión a la base de datos. 
 Verifica que los detalles de la conexión sean correctos para tu entorno.
@@ -115,7 +117,7 @@ Si usas un nombre de usuario y una contraseña diferentes para MySQL, actualiza 
 
 
 
-5. EJECUTAR EL PROYECTO:
+## 5. EJECUTAR EL PROYECTO:
 
 Una vez que hayas configurado la base de datos y la conexión, puedes iniciar tu servidor local de PHP para probar la aplicación.
 
@@ -129,7 +131,7 @@ Accede al proyecto en tu navegador: http://localhost/restaurante_app/public/inde
 
 
 
-6. CREAR EL USUARIO ADMINISTRADOR:
+## 6. CREAR EL USUARIO ADMINISTRADOR:
 
 Para facilitar las pruebas, puedes crear un usuario administrador en la base de datos utilizando el archivo create_admin.php. 
 Esto agregará un usuario con credenciales predefinidas para que puedas iniciar sesión rápidamente.
@@ -144,8 +146,7 @@ Contraseña: L1m0k6ikk9$
 Si la creación fue exitosa, podrás iniciar sesión con estas credenciales.
 
 
-
-7. INICIAR SESION Y USAR LA APLICACIÓN:
+## 7. INICIAR SESION Y USAR LA APLICACIÓN:
 
 Para acceder al sistema:
 
@@ -159,8 +160,7 @@ Contraseña: L1m0k6ikk9$
 Los administradores pueden gestionar las mesas, ver las reservas y crear nuevas.
 
 
-
-8. CONTRIBUCIONES:
+## 8. CONTRIBUCIONES:
 
 Si deseas contribuir al proyecto, puedes hacerlo a través de pull requests. 
 Si encuentras algún error o tienes sugerencias para mejorar la aplicación, no dudes en abrir un issue.

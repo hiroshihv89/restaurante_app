@@ -55,7 +55,7 @@ restaurante_app/
 El proyecto requiere una base de datos MySQL para funcionar correctamente. 
 Puedes crear la base de datos utilizando el archivo SQL proporcionado en el repositorio.
 
-# Usando phpMyAdmin (recomendado para usuarios de GUI):
+### Usando phpMyAdmin (recomendado para usuarios de GUI):
 
 Accede a phpMyAdmin a través de tu navegador (generalmente http://localhost/phpmyadmin).
 Crea una nueva base de datos llamada restaurante_app.
@@ -63,7 +63,7 @@ Selecciona la base de datos restaurante_app y haz clic en la pestaña Importar.
 En el formulario de importación, selecciona el archivo database.sql ubicado en el directorio raíz del proyecto.
 Haz clic en Continuar para importar la estructura de la base de datos.
 
-# Usando la consola de MySQL (para usuarios avanzados):
+### Usando la consola de MySQL (para usuarios avanzados):
 Si prefieres usar la consola de MySQL, sigue estos pasos:
 
 Accede a la consola de MySQL. Si usas XAMPP, abre la terminal y escribe mysql -u root -p para conectarte.
@@ -166,6 +166,6 @@ Si deseas contribuir al proyecto, puedes hacerlo a través de pull requests.
 Si encuentras algún error o tienes sugerencias para mejorar la aplicación, no dudes en abrir un issue.
 
 
-###MUCHAS GRACIAS :)
+# MUCHAS GRACIAS :)
 
 

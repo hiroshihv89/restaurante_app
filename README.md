@@ -1,3 +1,29 @@
+ESTRUCTURA DEL PROYECTO (RUTAS)
+
+restaurante_app/
+├── app/
+│   ├── controllers/
+│   │   └── AuthController.php
+│   ├── models/
+│   │   ├── Mesa.php
+│   │   ├── Reserva.php
+│   │   └── Usuario.php
+│   └── views/
+│       └── auth/
+│           ├── login.php
+│           └── register.php
+├── config/
+│   └── database.php
+├── public/
+│   ├── admin.php
+│   ├── cliente.php
+│   ├── create_admin.php
+│   ├── index.php
+│   ├── mesas.php
+│   └── styles.css
+└── database.sql
+
+
 # Restaurante App
 
 Este proyecto es una aplicación de gestión de reservas para un restaurante. Permite a los administradores gestionar mesas y a los clientes hacer reservas.

@@ -47,6 +47,7 @@ restaurante_app/
 │   └── styles.css
 └── database.sql
 ```
+
 3. CREAR LA BASE DE DATOS:
 
 El proyecto requiere una base de datos MySQL para funcionar correctamente. 
@@ -71,6 +72,8 @@ CREATE DATABASE restaurante_app;
 Importa el archivo SQL para crear las tablas: mysql -u root -p restaurante_app < path/to/database.sql
 
 Asegúrate de reemplazar path/to/database.sql con la ruta completa del archivo database.sql en tu máquina.
+
+
 
 4. CONFIGURAR LA CONEXION A LA BASE DE DATOS:
 
@@ -110,6 +113,8 @@ class Database {
 Si tu base de datos no está en localhost, cambia el valor de $host.
 Si usas un nombre de usuario y una contraseña diferentes para MySQL, actualiza $username y $password.
 
+
+
 5. EJECUTAR EL PROYECTO:
 
 Una vez que hayas configurado la base de datos y la conexión, puedes iniciar tu servidor local de PHP para probar la aplicación.
@@ -122,7 +127,9 @@ Coloca el proyecto en la carpeta htdocs de XAMPP o en la carpeta raíz de tu ser
 
 Accede al proyecto en tu navegador: http://localhost/restaurante_app/public/index.php
 
-CREAR EL USUARIO ADMINISTRADOR:
+
+
+6. CREAR EL USUARIO ADMINISTRADOR:
 
 Para facilitar las pruebas, puedes crear un usuario administrador en la base de datos utilizando el archivo create_admin.php. 
 Esto agregará un usuario con credenciales predefinidas para que puedas iniciar sesión rápidamente.
@@ -136,7 +143,9 @@ Contraseña: L1m0k6ikk9$
 
 Si la creación fue exitosa, podrás iniciar sesión con estas credenciales.
 
-6. INICIAR SESION Y USAR LA APLICACIÓN:
+
+
+7. INICIAR SESION Y USAR LA APLICACIÓN:
 
 Para acceder al sistema:
 
@@ -149,7 +158,9 @@ Contraseña: L1m0k6ikk9$
 
 Los administradores pueden gestionar las mesas, ver las reservas y crear nuevas.
 
-7. CONTRIBUCIONES:
+
+
+8. CONTRIBUCIONES:
 
 Si deseas contribuir al proyecto, puedes hacerlo a través de pull requests. 
 Si encuentras algún error o tienes sugerencias para mejorar la aplicación, no dudes en abrir un issue.
